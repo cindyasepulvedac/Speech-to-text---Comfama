@@ -3,7 +3,7 @@ import time
 import pickle
 from typing import List
 
-# Estas son las credenciales de Azure de mi cuenta personal caaosorioal@outlook
+# Credenciales para el servicio
 SUBSCRIPTION_KEY = "[SUBSCRIPTION_KEY]"
 SERVICE_REGION = "[SERVICE_REGION]"
 
