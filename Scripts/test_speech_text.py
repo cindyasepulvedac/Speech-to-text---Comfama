@@ -4,8 +4,8 @@ import pickle
 from typing import List
 
 # Estas son las credenciales de Azure de mi cuenta personal caaosorioal@outlook
-SUBSCRIPTION_KEY = "a06f7017a99b409c8d76ca31d4fc7dea"
-SERVICE_REGION = "eastus2"
+SUBSCRIPTION_KEY = "[SUBSCRIPTION_KEY]"
+SERVICE_REGION = "[SERVICE_REGION]"
 
 def speech_recognize_continuous_from_file(filename : str):
     """
