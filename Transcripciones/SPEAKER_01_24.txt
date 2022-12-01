@@ -1,0 +1,8 @@
+[0001-01-01 00:00:00.070000 ---> 0001-01-01 00:00:06.680000] : 'Bueno, De hecho, a mano con una pizca de amor es un es un taller de manualidades que existe hace aproximadamente 20 años.' 
+ [0001-01-01 00:00:07.550000 ---> 0001-01-01 00:00:12.300000] : 'Siempre ha sido a puerta cerrada porque es mi pasatiempo.' 
+ [0001-01-01 00:00:13.050000 ---> 0001-01-01 00:00:41.620000] : 'Es como en lo que en lo que descargo todo lo que del de la jornada laboral normal, pero es algo que me llena mucho de entusiasma mucho hacerlo porque no solamente hago cosas para mí, para mi casa, sino que hago cosas para la gente de afuera. Jairo es 1 de mis clientes entonces y trabajo y lo hago con gusto y lo hago bien, entonces hago pedidos aquí en popayán y después de dónde me los pidan los hago.' 
+ [0001-01-01 00:00:43.630000 ---> 0001-01-01 00:00:52.480000] : 'Tenemos en este, pues tengo en este momento una página de Facebook, pero no es a nombre del taller, sino que es es personal, pero allí se publica todo lo que se hace.' 
+ [0001-01-01 00:00:53.180000 ---> 0001-01-01 00:01:00.150000] : 'Y estamos como metiéndonos por Instagram solamente con cositas del taller, entonces en el taller estamos también allí.' 
+ [0001-01-01 00:01:00.880000 ---> 0001-01-01 00:01:07.790000] : 'Mostrando lo que se hace, lo hacemos en pequeña escala porque la mayor parte del tiempo trabajo sola.' 
+ [0001-01-01 00:01:08.720000 ---> 0001-01-01 00:01:27.810000] : 'Y un poquito de tiempo me acompañó de una amiguita que tengo que también, pues es muy, muy mal, entonces cuando son cosas muy grandes o requieren mayor inversión de tiempo, es ella la que también colabora, pero trabajamos para para todos. O sea, hacemos para todos, colegio, casa, empresas, todo eso lo hacen.' 
+ 
