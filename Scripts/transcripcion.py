@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 
 # Credenciales del servicio de Azure
-SUBSCRIPTION_KEY, SERVICE_REGION = "a06f7017a99b409c8d76ca31d4fc7dea", "eastus2"
+SUBSCRIPTION_KEY, SERVICE_REGION = "[SUBSCRIPTION_KEY]", "[SERVICE_REGION]"
 
 def transcribir_texto(archivo_audio : str, lenguaje : str = "es-CO", mostrar_avance = False) -> List:
     """
