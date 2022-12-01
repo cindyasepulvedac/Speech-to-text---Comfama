@@ -40,24 +40,24 @@ def transcribir_texto(archivo_audio : str, lenguaje : str = "es-CO", mostrar_ava
     done = False
 
     # Se define una función que se ejecutará cuando se detenga la transcripción
-    def terminar_transcripcion(e: speechsdk.SessionEventArgs):
+    def _terminar_transcripcion(e: speechsdk.SessionEventArgs):
         print(f'Terminando transcripción... {e}')
         speech_recognizer.stop_continuous_recognition()
         nonlocal done
         done = True
 
     transcripciones_detalles = []
-    agregar_a_transcripcion = lambda e : transcripciones_detalles.append((e.result.text, e.result.offset, e.result.duration))
+    _agregar_a_transcripcion = lambda e : transcripciones_detalles.append((e.result.text, e.result.offset, e.result.duration))
 
     # Conectar los eventos de la transcripción a las funciones definidas
     if mostrar_avance: 
         speech_recognizer.recognizing.connect(lambda e: print(f'Reconociendo texto: {e.result.text}'))
 
-    speech_recognizer.recognized.connect(agregar_a_transcripcion)
+    speech_recognizer.recognized.connect(_agregar_a_transcripcion)
 
     # Detener la transcripción cuando se termine el audio o se acabe manualmente
-    speech_recognizer.session_stopped.connect(terminar_transcripcion)
-    speech_recognizer.canceled.connect(terminar_transcripcion)
+    speech_recognizer.session_stopped.connect(_terminar_transcripcion)
+    speech_recognizer.canceled.connect(_terminar_transcripcion)
 
     # Comenzar la transcripción continua
     speech_recognizer.start_continuous_recognition_async()
